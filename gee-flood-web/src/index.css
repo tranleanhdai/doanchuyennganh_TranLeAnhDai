@@ -1,0 +1,52 @@
+/* src/index.css */
+
+/* FONT & RENDERING */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111827;
+}
+
+/* LINK */
+a {
+  font-weight: 500;
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  color: #1d4ed8;
+}
+
+/* BACKGROUND – LIGHT THEME */
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  /* Pastel nhẹ – hợp nút xanh / card trắng */
+  background: radial-gradient(
+    circle at top,
+    #f8fafc 0%,
+    #f1f5f9 40%,
+    #e2e8f0 100%
+  );
+
+  color: #111827;
+}
+
+/* APP ROOT */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
